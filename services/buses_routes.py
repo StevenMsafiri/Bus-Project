@@ -13,9 +13,9 @@ bus_route_model = api.model('BusRoute', {
     'FROM': fields.String(description='Starting location'),
     'DESTINATION': fields.String(description='Destination location'),
     'ROUTE': fields.String(description='Road path used'),
-    'ORDINARY BUS FARE(TSH)': fields.Float(description='Cost of using a Ordinary Bus'),
-    'SEMI LUXURY BUS FARE (TSH)': fields.Float(description='Cost of using a Luxury Bus'),
-    'DISTANCE(KM)': fields.Float(description='Travelled distance')
+    'ORDINARY_BUS_FARE_TSH': fields.String(description='Cost of using a Ordinary Bus'),
+    'SEMI_LUXURY_BUS_FARE_TSH': fields.String(description='Cost of using a Luxury Bus'),
+    'DISTANCE_KM': fields.String(description='Travelled distance')
 
 })
 
